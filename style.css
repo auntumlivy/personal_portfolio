@@ -7,16 +7,16 @@
 }
 
 :root {
-  --black:      #1A1A1A;   /* background utama */
-  --card-bg:    #242424;   /* background card */
-  --border:     #3A3A3A;   /* garis pembatas */
+  --orange:      #F07800;   /* background utama */
+  --card-bg:    #f6f67b;   /* background card */
+  --border:     #FFF9E6;   /* garis pembatas */
   --yellow:     #F5C518;   /* aksen kuning utama */
   --yellow-dim: #C49B10;   /* kuning saat hover */
   --cream:      #FFF9E6;   /* kuning muda */
-  --white:      #FFFFFF;   /* teks utama */
-  --muted:      #A0A0A0;   /* teks sekunder / abu */
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body:    'Inter', sans-serif;
+  --white:      #0000F0;   /* teks utama */
+  --muted:      #686767;   /* teks sekunder / abu */
+  --font-display: 'playfair display', sans-serif;
+  --font-body:    'lora', sans-serif;
 }
 
 html { scroll-behavior: smooth; }
@@ -34,7 +34,7 @@ nav {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  background: rgba(26,26,26,0.9);
+  background: rgba(251, 253, 97, 0.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
@@ -66,8 +66,8 @@ nav {
   font-weight: 500;
   transition: color 0.2s;
 }
-.nav-links a:hover { color: var(--white); }
-.nav-links a.active { color: var(--yellow); }
+.nav-links a:hover { color: var(--black);  font-weight: bold; }
+.nav-links a.active { color: var(--blue);  font-weight: bold; }
 
 .btn-primary {
   background: var(--yellow);
